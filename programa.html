@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Programa</title>
+    <script>
+
+        function puloLinha(){
+            document.write("<br> <br> <br>");
+        }
+        function mostra(frase){
+            document.write(frase);
+            puloLinha()
+        }
+
+        let ano = 2018;
+
+    mostra("Hugo tem: " + (ano-1997) +  " anos"  );
+    
+    mostra("Joaquim tem: " + (ano-1972) + " anos" );
+
+    mostra("João tem: " + (ano-1995) + " anos" );
+
+    let idadeHugo = 21;
+    let idadeJoaquim = 46; 
+    let idadeJoão = 23;
+    let media = (idadeHugo + idadeJoaquim + idadeJoão ) /3;
+  
+    mostra('A média das idades é ' + Math.round(media));
+
+    let nome = "hugo";
+
+    mostra( 'A idade do ' + nome +  ' é ' + idadeHugo);
+
+    mostra("concluido");
+    </script>
+      
+</head>
+<body>
+    
+</body>
+</html>
